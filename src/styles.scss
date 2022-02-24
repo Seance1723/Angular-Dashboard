@@ -1,0 +1,24 @@
+
+
+
+// https://stackblitz.com/edit/ng-mat-beta-12-k9xtek?file=theme.scss
+/*
+run: npm install --save roboto-fontface
+*/
+/*
+$roboto-font-path: "~roboto-fontface/fonts" !default;
+@import "~roboto-fontface/css/roboto/sass/roboto-fontface";
+*/
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+/**
+    removing conflicting stlyes with material design
+*/
+.mat-button:focus,
+.mat-button-base:focus {
+    outline: none;
+}
+
+/* use @sterl/admin-template/admin-template.styles */
+@import "../projects/admin-template/src/theme";
+

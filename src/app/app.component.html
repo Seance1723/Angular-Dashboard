@@ -1,0 +1,58 @@
+<div class="at-app">
+  <at-header title="Admin Template"></at-header>
+  
+  <div class="at-main">
+    <at-sidebar>
+      <button mat-button>
+        <mat-icon>person</mat-icon> 
+        User
+      </button>
+      <button mat-button class="at-active">
+        <mat-icon>person</mat-icon> 
+        User
+      </button>
+      
+    </at-sidebar>
+    
+
+    <div class="container-fluid">
+      <mat-card>
+        <ngb-alert [dismissible]="true">
+            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        </ngb-alert>
+  
+        <ngb-alert [dismissible]="true">
+            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        </ngb-alert>
+      </mat-card>
+
+      <mat-card>
+        <ngb-alert [dismissible]="true">
+            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        </ngb-alert>
+      </mat-card>
+
+      <ngb-alert [dismissible]="true">
+          <strong>Warning!</strong> Better check yourself, you're not looking too good.
+      </ngb-alert>
+
+      <ngb-alert [dismissible]="true">
+          <strong>Warning!</strong> Better check yourself, you're not looking too good.
+      </ngb-alert>
+
+      <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+
+      
+
+      <button mat-raised-button>
+        <mat-icon>person</mat-icon> 
+        User
+      </button>
+
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  
+</div>

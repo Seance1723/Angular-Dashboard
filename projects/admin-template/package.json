@@ -1,0 +1,28 @@
+{
+  "name": "@sterlp/admin-template",
+  "description": "Simple admin template based on material design and build to be used together with bootstrap.",
+  "author": "Paul Sterl",
+  "keywords": [
+    "Angular",
+    "Admin Template",
+    "Material",
+    "Bootstrap"
+  ],
+  "markdown": "github",
+  "license": "MIT",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "~11.0.3",
+    "@angular/core": "~11.0.3",
+    "@angular/animations": "~11.0.3",
+    "@angular/cdk": "^11.0.3",
+    "@angular/forms": "~11.0.3",
+    "@angular/material": "^11.0.3",
+    "material-icons": "^0.5.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
